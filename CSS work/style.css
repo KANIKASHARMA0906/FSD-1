@@ -1,0 +1,58 @@
+body{
+    background-color: azure;
+}
+
+div{
+    background-color: rgb(93, 95, 208);
+}
+
+.container{
+background-color: rgb(173, 174, 230);
+height: 400px;
+border: 2px solid red;
+/* margin: 200px; */
+padding: 20px;
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+flex-flow: row-reverse;
+/* FLEX will arrange all the childs in single line */
+/* For Moving the entire box wrt screen */
+}
+
+.child1,.child2,.child3,.child4{
+
+height: 200px;
+width: 200px;
+border: 2px dotted mediumseagreen;
+/* display: inline-block; */
+margin: 50px;
+margin-right: 100px;
+/* can use color tag to cahnge text color */
+} 
+
+.child1{
+    background-color: lightsalmon;
+}
+
+.child2{
+    background-color: rgb(250, 135, 233);
+}
+
+.child3{
+    background-color: rgb(121, 79, 79);
+}
+
+.child4{
+    background-color: rgb(255, 247, 0);
+}
+/* div+p{
+    background-color: yellow;
+} */
+/* 
+#child1{
+    background-color: rgb(123, 255, 0);
+}
+.myclass{
+    background-color: violet;
+} */
