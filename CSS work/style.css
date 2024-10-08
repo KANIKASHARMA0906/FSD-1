@@ -6,6 +6,7 @@ div{
     background-color: rgb(93, 95, 208);
 }
 
+/*PARENT  */
 .container{
 background-color: rgb(173, 174, 230);
 height: 400px;
@@ -14,18 +15,24 @@ border: 2px solid red;
 padding: 20px;
 box-sizing: border-box;
 display: flex;
+flex-direction: row;
 flex-wrap: wrap;
-flex-flow: row-reverse;
+justify-content: space-between;
+align-items: center;
+
+/* flex-flow: row-reverse;  */
 /* FLEX will arrange all the childs in single line */
-/* For Moving the entire box wrt screen */
+/* /* For Moving the entire box wrt screen */
+
 }
 
-.child1,.child2,.child3,.child4{
+
+ .child1,.child2,.child3,.child4{
 
 height: 200px;
 width: 200px;
 border: 2px dotted mediumseagreen;
-/* display: inline-block; */
+display: inline-block;
 margin: 50px;
 margin-right: 100px;
 /* can use color tag to cahnge text color */
@@ -33,6 +40,7 @@ margin-right: 100px;
 
 .child1{
     background-color: lightsalmon;
+    /* flex-basis: 50%; */
 }
 
 .child2{
